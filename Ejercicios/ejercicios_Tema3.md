@@ -1,4 +1,5 @@
-##Ejercicio T3.1:
+**Ejercicio T3.1:**
+
 **Buscar con qué órdenes de terminal o herramientas gráficas podemos**
 **configurar bajo Windows y bajo Linux el enrutamiento del tráfico de**
 **un servidor para pasar el tráfico desde una subred a otra.**
@@ -31,7 +32,8 @@ enmascararlos (MASQUERADE), es decir, hacer NAT. Los comandos a ejecutar serían
 
 En Windows, en administrador del servidor, seleccionamos servicio de enrutamiento y acceso remoto.
 
-##Ejercicio T3.2:
+**Ejercicio T3.2:**
+
 **Buscar con qué órdenes de terminal o herramientas gráficas**
 **podemos configurar bajo Windows y bajo Linux el filtrado**
 **y bloqueo de paquetes.**

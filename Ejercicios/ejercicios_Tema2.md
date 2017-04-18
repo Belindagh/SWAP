@@ -1,4 +1,5 @@
-##Ejercicio T2.1: 
+**Ejercicio T2.1:** 
+
 **Calcular la disponibilidad del sistema si tenemos dos**
 **réplicas de cada elemento (en total 3 elementos en cada subsistema).**
 
@@ -13,7 +14,8 @@ ISP = 99'75 + (1 - 99'75)*95 = 99'9875
 
 Disponibilidad=0,996625×0,999×0,999999×0,999992×0,996625×0,999999×0,9999×0,999875=99,2034961%
 
-##Ejercicio T2.2:
+**Ejercicio T2.2:**
+
 **Buscar frameworks y librerías para diferentes lenguajes que**
 **permitan hacer aplicaciones altamente disponibles con relativa facilidad.**
 
@@ -34,27 +36,28 @@ pueden integrar rápidamente en su aplicación, combinada con una metodología c
 para ayudarle a trabajar de forma eficiente y eficaz en las tareas más complejas.
 
 
-##Ejercicio T2.3:
+**Ejercicio T2.3:**
 **¿Cómo analizar el nivel de carga de cada uno de los subsistemas en el servidor?**
  
-+Podemos usar el comando "top" que nos muestra el uso de CPU y de memoria que 
+Podemos usar el comando "top" que nos muestra el uso de CPU y de memoria que 
 están haciendo los procesos que se están ejecutando en nuestra máquina.
 
-+Gnome System Monitor,muestra qué programas están en ejecución y cuánto 
+Gnome System Monitor,muestra qué programas están en ejecución y cuánto 
 procesador, tiempo, memoria y espacio en disco están usando.
 
-+GTmetrix, es una de las herramientas más completas que podemos emplear a la hora de evaluar
+GTmetrix, es una de las herramientas más completas que podemos emplear a la hora de evaluar
 la carga de una página web: unifica Google Page Speed y Yahoo! YSlow en una sola interfaz. 
 Muestra recomendaciones de mejora mediante gráficas de color, a las que puntúa de la A a
 la F (A es mejor; F, peor) y de 0 a 100. 
 
-+WebPageTest, establece el análisis en base a continentes (América del Norte, 
+WebPageTest, establece el análisis en base a continentes (América del Norte, 
 América del Sur, Europa, África, Asia y Oceanía), ciudades y navegadores. 
 Dispone de opciones para elegir la velocidad de conexión a internet, 
 así como, por ejemplo, desactivar Javascript e ignorar errores de certificados SSL.
 El resultado del test puntúa de la A a la F (A es la mejor puntuación posible; F, la peor).
 
-##Ejercicio T2.4:
+**Ejercicio T2.4:**
+
 **Buscar ejemplos de balanceadores software y hardware (productos comerciales).**
 	
 Balanceadores software:
