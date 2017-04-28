@@ -1,3 +1,5 @@
+<h1><b>PRACTICA 3</b></h1>
+
 **Configurar una máquina e instalarte nginx como balanceador de carga**
 [nginx](https://github.com/Belindagh/SWAP/blob/master/Practica3/imagenes/nginx.png?raw=true)
 
