@@ -1,7 +1,7 @@
 <h2><b>Ejercicio T4.1:</b></h2>
-**Buscar información sobre cuánto costaría en la actualidad**
-**un mainframe. Comparar precio y potencia entre esa**
-**máquina y una granja web de unas prestaciones similares.**
+<b>Buscar información sobre cuánto costaría en la actualidad
+un mainframe. Comparar precio y potencia entre esa
+máquina y una granja web de unas prestaciones similares.</b>
 
 Un mainframe de IBM, el z13, puede costar aproximadamente 75.000 dólares.
 No he encontrado más información para comparar las prestaciones de esta
@@ -17,8 +17,8 @@ En estas imágenes se muestra una comparación de:
     F5 Big-IP LTM
     Citrix Netscaler MPX
 
-[imagen1]
-[imagen2]
+[imagen1](https://github.com/Belindagh/SWAP/blob/master/imagenes_ejers/ejercicio2.png?raw=true)
+[imagen2](https://github.com/Belindagh/SWAP/blob/master/imagenes_ejers/ejercicio2_.png?raw=true)
 
 
 <h2><b>Ejercicio T4.3:</b></h2>
