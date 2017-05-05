@@ -26,23 +26,31 @@ En estas imágenes se muestra una comparación de:
 
 
 <h2><b>Ejercicio T4.3:</b></h2>
-**Buscar información sobre los métodos de balanceo que**
-**implementan los dispositivos recogidos en el ejercicio 4.**
+<b>Buscar información sobre los métodos de balanceo que
+implementan los dispositivos recogidos en el ejercicio 4.</b>
 
-**KEMP LoadMaster:**
+<b>KEMP LoadMaster:</b>
+
     -round-robin
+
     -weighted round-robin
+
     -least connections
+
     -weighted least connections
+
     -fixed weighting
+
     -Request switching
+
     -Application switching
+
     -Content based routing
 
 
 <h2><b>Ejercicio T4.4:</b></h2>
-**Instala y configura en una máquina virtual el balanceador**
-**ZenLoadBalancer.**
+<b>Instala y configura en una máquina virtual el balanceador
+ZenLoadBalancer.</b>
 
 Hay que descargarse e instalarse la ISO desde este link [aquí](https://sourceforge.net/projects/zenloadbalancer/files/latest/download) ,
 una vez instalado el sistema basado en Debian GNU/Linux, lo configuramos
@@ -50,22 +58,30 @@ para poder acceder desde otra máquina y así conseguir un resultado similar
 al de la práctica 3.
 
 <h2><b>Ejercicio T4.5:</b></h2>
-**Probar las diferentes maneras de redirección HTTP.**
-**¿Cuál es adecuada y cuál no lo es para hacer balanceo de**
-**carga global? ¿Por qué?**
+<b>Probar las diferentes maneras de redirección HTTP.
+¿Cuál es adecuada y cuál no lo es para hacer balanceo de
+carga global? ¿Por qué?</b>
 
 La manera más adecuada de redirección es la 302 dado que es temporal
 y así sería posible redirigir el tráfico a otras direcciones
 temporales.
 
 <h2><b>Ejercicio T4.7:</b></h2>
-**Buscar información sobre métodos y herramientas para implementar GSLB.**
+<b>Buscar información sobre métodos y herramientas para implementar GSLB.</b>
+
 Una herramienta para implementar un GSLB puede ser NetScaler, para configurarlo
 mediante la línea de comandos de NetScaler
 En el símbolo del sistema NetScaler, escriba:
+
     •set ns config -ipaddress<IPAddress> -netmask<subnetMask> 
-    •add ns ip<IPAddress> <subnetMask> -type<type>   
-    •add route Network<subnetMask> <gateway> 
-    •set system user<userName> <password>   
-    •save ns config           
-    • reboot
+
+    •add ns ip<IPAddress> <subnetMask> -type<type> 
+
+    •add route Network<subnetMask> <gateway>
+ 
+    •set system user<userName> <password> 
+
+    •save ns config 
+
+    •reboot
+
