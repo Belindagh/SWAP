@@ -8,13 +8,17 @@ No he encontrado más información para comparar las prestaciones de esta
 con una granja web similar.
 
 <h2><b>Ejercicio T4.2:</b></h2>
-**Buscar información sobre precio y características de**
-**balanceadores hardware específicos. Compara las**
-**prestaciones que ofrecen unos y otros.**
+<b>Buscar información sobre precio y características de
+balanceadores hardware específicos. Compara las
+prestaciones que ofrecen unos y otros.</b>
 
 En estas imágenes se muestra una comparación de: 
+
+
     KEMP LoadMaster
+
     F5 Big-IP LTM
+
     Citrix Netscaler MPX
 
 [imagen1](https://github.com/Belindagh/SWAP/blob/master/imagenes_ejers/ejercicio2.png?raw=true)
