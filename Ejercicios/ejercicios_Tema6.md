@@ -22,15 +22,15 @@ su estado, y qué programa o demonio lo ocupa.</b>
 
 PROT        DIREC         ESTADO           PROGRAM
 
-tcp         3306          ESCUCHAR          mysqld
+tcp            3306          ESCUCHAR          mysqld
 
-tcp         22            ESCUCHAR          sshd
+tcp            22            ESCUCHAR          sshd
 
-tcp         80            ESCUCHAR          apache2
+tcp            80            ESCUCHAR          apache2
 
-tcp         22            ESCUCHAR          sshd
+tcp            22            ESCUCHAR          sshd
 
-udp         68                              dhclient
+udp            68                              dhclient
 
 
 <h2><b>Ejercicio T6.3:</b></h2>
@@ -50,10 +50,10 @@ udp         68                              dhclient
          Cómo evitar estos ataques:
 
            La solución sería evitar que se pudieran introducir caracteres especiales (comillas)
-           sin haberlas transformado antes (por ejemplo, una comilla doble: " debería de transformarse en \" 
-           que así interpretará como texto la comilla y no como el carácter que cierra o abre el una texto en 
-           la consulta, pero según el lenguaje se puede implementar de distintas formas y algunas son automáticas 
-           y más optimizadas.
+           sin haberlas transformado antes (por ejemplo, una comilla doble: " debería de 
+           transformarse en \" que así interpretará como texto la comilla y no como el carácter 
+           que cierra o abre el una texto en la consulta, pero según el lenguaje se puede 
+           implementar de distintas formas y algunas son automáticas y más optimizadas.
 
 
 
