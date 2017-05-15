@@ -23,16 +23,20 @@ su estado, y qué programa o demonio lo ocupa.</b>
 PROTOCOLO   DIRECCIÓN     ESTADO           PROGRAM_NAME 
 
 tcp         3306          ESCUCHAR          mysqld
+
 tcp         22            ESCUCHAR          sshd
+
 tcp         80            ESCUCHAR          apache2
+
 tcp         22            ESCUCHAR          sshd
+
 udp         68                              dhclient
 
 
 <h2><b>Ejercicio T6.3:</b></h2>
-<b>Buscar información acerca de los tipos de ataques más
-comunes en servidores web (p.ej. secuestros de sesión).
+<b>Buscar información acerca de los tipos de ataques más comunes en servidores web (p.ej. secuestros de sesión).
 Detallar en qué consisten, y cómo se pueden evitar.</b>
+
 
 
  <b>Los ataques de inyección, SQLI (Structured Query Language Injection):</b> es una técnica para modificar
@@ -45,13 +49,15 @@ Detallar en qué consisten, y cómo se pueden evitar.</b>
   entre los ataques más fáciles de ejecutar, que no requiere más que un solo PC y una pequeña cantidad de 
   conocimientos de base de datos.
 
-            Cómo evitar estos ataques:
+         Cómo evitar estos ataques:
 
-                La solución sería evitar que se pudieran introducir caracteres especiales (comillas)
-                sin haberlas transformado antes (por ejemplo, una comilla doble: " debería de transformarse en \" 
-                que así interpretará como texto la comilla y no como el carácter que cierra o abre el una texto en 
-                la consulta, pero según el lenguaje se puede implementar de distintas formas y algunas son automáticas 
-                y más optimizadas.
+            La solución sería evitar que se pudieran introducir caracteres especiales (comillas)
+            sin haberlas transformado antes (por ejemplo, una comilla doble: " debería de transformarse en \" 
+            que así interpretará como texto la comilla y no como el carácter que cierra o abre el una texto en 
+            la consulta, pero según el lenguaje se puede implementar de distintas formas y algunas son automáticas 
+            y más optimizadas.
+
+
 
      
  <b>DDoS :</b>
@@ -73,6 +79,7 @@ Detallar en qué consisten, y cómo se pueden evitar.</b>
             el de salida para ganar visibilidad en volúmenes poco usuales o diseños que
             puedan identificar sitios target o revelar botnets dentro de la red.)
  
+
 
   <b>Cross Site Scripting: </b>
        XSS es un estilo de ataque en el que la parte delantera de la página web actúa como un
