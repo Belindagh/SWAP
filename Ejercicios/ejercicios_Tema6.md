@@ -22,15 +22,15 @@ su estado, y qué programa o demonio lo ocupa.</b>
 
 PROT        DIREC         ESTADO           PROGRAM
 
-tcp            3306          ESCUCHAR          mysqld
+- tcp            3306          ESCUCHAR          mysqld
 
-tcp            22            ESCUCHAR          sshd
+- tcp            22            ESCUCHAR          sshd
 
-tcp            80            ESCUCHAR          apache2
+- tcp            80            ESCUCHAR          apache2
 
-tcp            22            ESCUCHAR          sshd
+- tcp            22            ESCUCHAR          sshd
 
-udp            68                              dhclient
+- udp            68                              dhclient
 
 
 <h2><b>Ejercicio T6.3:</b></h2>
