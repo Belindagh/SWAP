@@ -20,7 +20,7 @@ En esta imagen comprobamos que funcionan correctamente al permitir todo el tráf
 su estado, y qué programa o demonio lo ocupa.</b>
 
 
-PROTOCOLO   DIRECCIÓN     ESTADO           PROGRAM_NAME 
+PROT        DIREC         ESTADO           PROGRAM
 
 tcp         3306          ESCUCHAR          mysqld
 
@@ -34,9 +34,7 @@ udp         68                              dhclient
 
 
 <h2><b>Ejercicio T6.3:</b></h2>
-<b>Buscar información acerca de los tipos de ataques más comunes en servidores web (p.ej. secuestros de sesión).
-Detallar en qué consisten, y cómo se pueden evitar.</b>
-
+<b>Buscar información acerca de los tipos de ataques más comunes en servidores web. Detallar en qué consisten, y cómo se pueden evitar.</b>
 
 
  <b>Los ataques de inyección, SQLI (Structured Query Language Injection):</b> es una técnica para modificar
@@ -51,11 +49,11 @@ Detallar en qué consisten, y cómo se pueden evitar.</b>
 
          Cómo evitar estos ataques:
 
-            La solución sería evitar que se pudieran introducir caracteres especiales (comillas)
-            sin haberlas transformado antes (por ejemplo, una comilla doble: " debería de transformarse en \" 
-            que así interpretará como texto la comilla y no como el carácter que cierra o abre el una texto en 
-            la consulta, pero según el lenguaje se puede implementar de distintas formas y algunas son automáticas 
-            y más optimizadas.
+           La solución sería evitar que se pudieran introducir caracteres especiales (comillas)
+           sin haberlas transformado antes (por ejemplo, una comilla doble: " debería de transformarse en \" 
+           que así interpretará como texto la comilla y no como el carácter que cierra o abre el una texto en 
+           la consulta, pero según el lenguaje se puede implementar de distintas formas y algunas son automáticas 
+           y más optimizadas.
 
 
 
