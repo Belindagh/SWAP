@@ -1,6 +1,6 @@
 <h2><b>Ejercicio T6.1:</b></h2>
 <b>Aplicar con iptables una política de denegar todo el tráfico
-en una de las máquinas de prácticas.
+en una de las máquinas de prácticas. 
 Comprobar el funcionamiento.</b>
 
 En esta imagen se ve como es a la máquina 2 a la que se le deniega el tráfico.
@@ -19,8 +19,6 @@ En esta imagen comprobamos que funcionan correctamente al permitir todo el tráf
 <b>Comprobar qué puertos tienen abiertos nuestras máquinas,
 su estado, y qué programa o demonio lo ocupa.</b>
 
-
-PROT        DIREC         ESTADO           PROGRAM
 
 - tcp            3306          ESCUCHAR          mysqld
 
