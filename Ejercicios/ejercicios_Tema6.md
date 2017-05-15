@@ -4,18 +4,21 @@ en una de las máquinas de prácticas.
 Comprobar el funcionamiento.</b>
 
 En esta imagen se ve como es a la máquina 2 a la que se le deniega el tráfico.
-[ej1_parte1]
+
+[ej1_parte1](https://github.com/Belindagh/SWAP/blob/master/imagenes_ejers/ej1_parte1.png?raw=true)
 
 <b>Aplicar con iptables una política de permitir todo el tráfico
 en una de las máquinas de prácticas.
 Comprobar el funcionamiento.</b>
 
 En esta imagen comprobamos que funcionan correctamente al permitir todo el tráfico.
-[ej1_parte2]
+
+[ej1_parte2](https://github.com/Belindagh/SWAP/blob/master/imagenes_ejers/ej1_parte2.png?raw=true)
 
 <h2><b>Ejercicio T6.2:</b></h2>
 <b>Comprobar qué puertos tienen abiertos nuestras máquinas,
 su estado, y qué programa o demonio lo ocupa.</b>
+
 
 PROTOCOLO   DIRECCIÓN     ESTADO           PROGRAM_NAME 
 
@@ -25,12 +28,15 @@ tcp         80            ESCUCHAR          apache2
 tcp         22            ESCUCHAR          sshd
 udp         68                              dhclient
 
+
 <h2><b>Ejercicio T6.3:</b></h2>
 <b>Buscar información acerca de los tipos de ataques más
 comunes en servidores web (p.ej. secuestros de sesión).
 Detallar en qué consisten, y cómo se pueden evitar.</b>
 
+
  <b>Los ataques de inyección, SQLI (Structured Query Language Injection):</b>
+
      es una técnica para modificar una cadena de consulta de base de datos mediante la
      inyección de código en la consulta. El SQLI explota una posible vulnerabilidad donde
      las consultas se pueden ejecutar con los datos validados.
@@ -42,7 +48,7 @@ Detallar en qué consisten, y cómo se pueden evitar.</b>
      de ejecutar, que no requiere más que un solo PC y una pequeña cantidad de conocimientos de 
      base de datos.
 
-            **Cómo evitar estos ataques:**
+            Cómo evitar estos ataques:
 
                 La solución sería evitar que se pudieran introducir caracteres especiales (comillas)
                 sin haberlas transformado antes (por ejemplo, una comilla doble: " debería de transformarse en \" 
@@ -62,8 +68,9 @@ Detallar en qué consisten, y cómo se pueden evitar.</b>
         2.Los ataques de protocolo, donde los paquetes intentan consumir servicios o recursos de la red.
         3.Ataques a aplicaciones, donde las peticiones se hacen con la intención de “explotar” el servidor web, mediante la capa de aplicación.
 
+
     
-        **Cómo evitar estos ataques:**
+        Cómo evitar estos ataques:
         
             Se debe saber identificar las partes más propensas a ser atacadas como el ancho 
             de banda a internet, firewalls, prevención de intrusiones, balanceadores de carga
@@ -78,7 +85,6 @@ Detallar en qué consisten, y cómo se pueden evitar.</b>
        sucede cuando los desarrolladores no prueban correctamente su código para posibilidad 
        de permitir scripts de ser inyectados. Los scripts pueden ser ejecutados sin
        funcionalidad original del sitio de la intención que sean.
-
        Si una vulnerabilidad XSS está presente en un sitio web, entonces un atacante puede 
        crear código que se ejecuta cuando otros usuarios abren el mismo sitio web. Esto hace 
        que los nuevos usuarios interactúen con la entidad fondo malicioso creado por el 
@@ -87,7 +93,7 @@ Detallar en qué consisten, y cómo se pueden evitar.</b>
        es capaz de infiltrarse en las computadoras de sus visitantes del sitio web.
 
 
-         **Cómo evitar estos ataques:**
+         Cómo evitar estos ataques:
             Para evitar eso en PHP existe la función strip_tags que dada una cadena de texto 
             limpia todas las etiquetas HTML que encuentre.
 
