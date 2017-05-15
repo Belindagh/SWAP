@@ -35,18 +35,15 @@ comunes en servidores web (p.ej. secuestros de sesión).
 Detallar en qué consisten, y cómo se pueden evitar.</b>
 
 
- <b>Los ataques de inyección, SQLI (Structured Query Language Injection):</b>
-
-     es una técnica para modificar una cadena de consulta de base de datos mediante la
-     inyección de código en la consulta. El SQLI explota una posible vulnerabilidad donde
-     las consultas se pueden ejecutar con los datos validados.
-     SQLI siguen siendo una de las técnicas de sitios web más usadas y se pueden utilizar 
-     para obtener acceso a las tablas de bases de datos, incluyendo información del usuario 
-     y la contraseña. Este tipo de ataques son particularmente comunes en los sitios de empresas 
-     y de comercio electrónico donde los hackers esperan grandes bases de datos para luego extraer 
-     la información sensible.Los ataques sqli también se encuentran entre los ataques más fáciles 
-     de ejecutar, que no requiere más que un solo PC y una pequeña cantidad de conocimientos de 
-     base de datos.
+ <b>Los ataques de inyección, SQLI (Structured Query Language Injection):</b> es una técnica para modificar
+  una cadena de consulta de base de datos mediante la inyección de código en la consulta. El SQLI explota 
+  una posible vulnerabilidad donde las consultas se pueden ejecutar con los datos validados.
+  SQLI siguen siendo una de las técnicas de sitios web más usadas y se pueden utilizar para obtener acceso 
+  a las tablas de bases de datos, incluyendo información del usuario y la contraseña. Este tipo de ataques 
+  son particularmente comunes en los sitios de empresas y de comercio electrónico donde los hackers esperan 
+  grandes bases de datos para luego extraer la información sensible.Los ataques sqli también se encuentran 
+  entre los ataques más fáciles de ejecutar, que no requiere más que un solo PC y una pequeña cantidad de 
+  conocimientos de base de datos.
 
             Cómo evitar estos ataques:
 
@@ -62,14 +59,12 @@ Detallar en qué consisten, y cómo se pueden evitar.</b>
     un sitio con solicitudes externas, por lo que ese sitio no podría estar disponible para los usuarios reales. 
     Los ataques de denegación de servicio por lo general se dirigen a puertos específicos, rangos de IP o redes completas,
     pero se pueden dirigir a cualquier dispositivo o servicio conectado.
-
     Los ataques DDoS vienen en 3 variedades principales:
         1.Los ataques de volumen, donde el ataque intenta desbordar el ancho de banda en un sitio específico.
         2.Los ataques de protocolo, donde los paquetes intentan consumir servicios o recursos de la red.
         3.Ataques a aplicaciones, donde las peticiones se hacen con la intención de “explotar” el servidor web, mediante la capa de aplicación.
 
 
-    
         Cómo evitar estos ataques:
         
             Se debe saber identificar las partes más propensas a ser atacadas como el ancho 
