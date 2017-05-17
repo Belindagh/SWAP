@@ -8,7 +8,7 @@ servidores. </h2></b>
     y editamos el archivo default-ssl mostrado en la imagen, lo activamos y reiniciamos.
     Se puede comprobar que funciona correctamente.
 
-[parte1](https://github.com/Belindagh/SWAP/blob/master/Practica4/imagenes/parte1.png?raw=true)
+![parte1](https://github.com/Belindagh/SWAP/blob/master/Practica4/imagenes/parte1.png?raw=true)
 
 
 <h2><b> 2.Configurar las reglas del cortafuegos con IPTABLES para asegurar el acceso a
@@ -48,4 +48,4 @@ Para que se ejecute en el arranque del sistema lo guardamos con iptable-save.
 
 En la imagen, comprobamos que funciona correctamente.
 
-[parte2](https://github.com/Belindagh/SWAP/blob/master/Practica4/imagenes/parte2.png?raw=true)
+![parte2](https://github.com/Belindagh/SWAP/blob/master/Practica4/imagenes/parte2.png?raw=true)
