@@ -8,19 +8,19 @@
         va a montar la unidad del RAID. 
         En la imagen1 lo podemos comprobar:
 
-        ![imagen1]mount
+![imagen1](https://github.com/Belindagh/SWAP/blob/master/Practica6/imagenes/mount.png?raw=true)
 
         Ahora comprobamos el estado del RAID:
 
-        ![imagen2]estadoRAID
+![imagen2](https://github.com/Belindagh/SWAP/blob/master/Practica6/imagenes/estadoRAID.png?raw=true)
 
         Para obtener los UUID de todos los dispositivos de almacenamiento que tenemos,
 
-        ![imagen3]UUID
+![imagen3](https://github.com/Belindagh/SWAP/blob/master/Practica6/imagenes/UUID.png?raw=true)
 
         Añadimos al archivo /etc/fstab:
 
-        ![imagen4]raidd
+![imagen4](https://github.com/Belindagh/SWAP/blob/master/Practica6/imagenes/raidd.png?raw=true)
 
         para que monte automáticamente el dispositivo RAID. 
 
@@ -35,7 +35,7 @@
           y por último, añadimos en caliente un nuevo disco que vendría a reemplazar al 
           disco que hemos retirado.
 
-          ![imagen5] resultado
+![imagen5](https://github.com/Belindagh/SWAP/blob/master/Practica6/imagenes/resultado.png?raw=true)
 
             
 
